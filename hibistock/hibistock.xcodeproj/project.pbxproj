@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02291F012B86175700D3C58B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291F002B86175700D3C58B /* AppDelegate.swift */; };
+		02291F032B86175700D3C58B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291F022B86175700D3C58B /* SceneDelegate.swift */; };
+		02291F0A2B86175900D3C58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02291F092B86175900D3C58B /* Assets.xcassets */; };
+		02291F0D2B86175900D3C58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02291F0B2B86175900D3C58B /* LaunchScreen.storyboard */; };
+		02291F182B86175900D3C58B /* hibistockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291F172B86175900D3C58B /* hibistockTests.swift */; };
+		02291F222B86175900D3C58B /* hibistockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291F212B86175900D3C58B /* hibistockUITests.swift */; };
+		02291F242B86175900D3C58B /* hibistockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02291F232B86175900D3C58B /* hibistockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02291F142B86175900D3C58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02291EF52B86175700D3C58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02291EFC2B86175700D3C58B;
+			remoteInfo = hibistock;
+		};
+		02291F1E2B86175900D3C58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02291EF52B86175700D3C58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02291EFC2B86175700D3C58B;
+			remoteInfo = hibistock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02291EFD2B86175700D3C58B /* hibistock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hibistock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02291F002B86175700D3C58B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02291F022B86175700D3C58B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02291F092B86175900D3C58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02291F0C2B86175900D3C58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02291F0E2B86175900D3C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02291F132B86175900D3C58B /* hibistockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hibistockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02291F172B86175900D3C58B /* hibistockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hibistockTests.swift; sourceTree = "<group>"; };
+		02291F1D2B86175900D3C58B /* hibistockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hibistockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02291F212B86175900D3C58B /* hibistockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hibistockUITests.swift; sourceTree = "<group>"; };
+		02291F232B86175900D3C58B /* hibistockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hibistockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02291EFA2B86175700D3C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F102B86175900D3C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F1A2B86175900D3C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02291EF42B86175700D3C58B = {
+			isa = PBXGroup;
+			children = (
+				02291EFF2B86175700D3C58B /* hibistock */,
+				02291F162B86175900D3C58B /* hibistockTests */,
+				02291F202B86175900D3C58B /* hibistockUITests */,
+				02291EFE2B86175700D3C58B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02291EFE2B86175700D3C58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02291EFD2B86175700D3C58B /* hibistock.app */,
+				02291F132B86175900D3C58B /* hibistockTests.xctest */,
+				02291F1D2B86175900D3C58B /* hibistockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02291EFF2B86175700D3C58B /* hibistock */ = {
+			isa = PBXGroup;
+			children = (
+				02291F092B86175900D3C58B /* Assets.xcassets */,
+				02291F0B2B86175900D3C58B /* LaunchScreen.storyboard */,
+				02291F0E2B86175900D3C58B /* Info.plist */,
+				02291F302B86179700D3C58B /* Application */,
+			);
+			path = hibistock;
+			sourceTree = "<group>";
+		};
+		02291F162B86175900D3C58B /* hibistockTests */ = {
+			isa = PBXGroup;
+			children = (
+				02291F172B86175900D3C58B /* hibistockTests.swift */,
+			);
+			path = hibistockTests;
+			sourceTree = "<group>";
+		};
+		02291F202B86175900D3C58B /* hibistockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02291F212B86175900D3C58B /* hibistockUITests.swift */,
+				02291F232B86175900D3C58B /* hibistockUITestsLaunchTests.swift */,
+			);
+			path = hibistockUITests;
+			sourceTree = "<group>";
+		};
+		02291F302B86179700D3C58B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				02291F002B86175700D3C58B /* AppDelegate.swift */,
+				02291F022B86175700D3C58B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02291EFC2B86175700D3C58B /* hibistock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02291F272B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistock" */;
+			buildPhases = (
+				02291EF92B86175700D3C58B /* Sources */,
+				02291EFA2B86175700D3C58B /* Frameworks */,
+				02291EFB2B86175700D3C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hibistock;
+			productName = hibistock;
+			productReference = 02291EFD2B86175700D3C58B /* hibistock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02291F122B86175900D3C58B /* hibistockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02291F2A2B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistockTests" */;
+			buildPhases = (
+				02291F0F2B86175900D3C58B /* Sources */,
+				02291F102B86175900D3C58B /* Frameworks */,
+				02291F112B86175900D3C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02291F152B86175900D3C58B /* PBXTargetDependency */,
+			);
+			name = hibistockTests;
+			productName = hibistockTests;
+			productReference = 02291F132B86175900D3C58B /* hibistockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02291F1C2B86175900D3C58B /* hibistockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02291F2D2B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistockUITests" */;
+			buildPhases = (
+				02291F192B86175900D3C58B /* Sources */,
+				02291F1A2B86175900D3C58B /* Frameworks */,
+				02291F1B2B86175900D3C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02291F1F2B86175900D3C58B /* PBXTargetDependency */,
+			);
+			name = hibistockUITests;
+			productName = hibistockUITests;
+			productReference = 02291F1D2B86175900D3C58B /* hibistockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02291EF52B86175700D3C58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					02291EFC2B86175700D3C58B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					02291F122B86175900D3C58B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 02291EFC2B86175700D3C58B;
+					};
+					02291F1C2B86175900D3C58B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 02291EFC2B86175700D3C58B;
+					};
+				};
+			};
+			buildConfigurationList = 02291EF82B86175700D3C58B /* Build configuration list for PBXProject "hibistock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02291EF42B86175700D3C58B;
+			productRefGroup = 02291EFE2B86175700D3C58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02291EFC2B86175700D3C58B /* hibistock */,
+				02291F122B86175900D3C58B /* hibistockTests */,
+				02291F1C2B86175900D3C58B /* hibistockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02291EFB2B86175700D3C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02291F0D2B86175900D3C58B /* LaunchScreen.storyboard in Resources */,
+				02291F0A2B86175900D3C58B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F112B86175900D3C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F1B2B86175900D3C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02291EF92B86175700D3C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02291F012B86175700D3C58B /* AppDelegate.swift in Sources */,
+				02291F032B86175700D3C58B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F0F2B86175900D3C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02291F182B86175900D3C58B /* hibistockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02291F192B86175900D3C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02291F222B86175900D3C58B /* hibistockUITests.swift in Sources */,
+				02291F242B86175900D3C58B /* hibistockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02291F152B86175900D3C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02291EFC2B86175700D3C58B /* hibistock */;
+			targetProxy = 02291F142B86175900D3C58B /* PBXContainerItemProxy */;
+		};
+		02291F1F2B86175900D3C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02291EFC2B86175700D3C58B /* hibistock */;
+			targetProxy = 02291F1E2B86175900D3C58B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02291F0B2B86175900D3C58B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02291F0C2B86175900D3C58B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02291F252B86175900D3C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02291F262B86175900D3C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02291F282B86175900D3C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hibistock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02291F292B86175900D3C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hibistock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02291F2B2B86175900D3C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hibistock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hibistock";
+			};
+			name = Debug;
+		};
+		02291F2C2B86175900D3C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hibistock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hibistock";
+			};
+			name = Release;
+		};
+		02291F2E2B86175900D3C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hibistock;
+			};
+			name = Debug;
+		};
+		02291F2F2B86175900D3C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U3GTR786Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hibiscus.hibistockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hibistock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02291EF82B86175700D3C58B /* Build configuration list for PBXProject "hibistock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02291F252B86175900D3C58B /* Debug */,
+				02291F262B86175900D3C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02291F272B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02291F282B86175900D3C58B /* Debug */,
+				02291F292B86175900D3C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02291F2A2B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02291F2B2B86175900D3C58B /* Debug */,
+				02291F2C2B86175900D3C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02291F2D2B86175900D3C58B /* Build configuration list for PBXNativeTarget "hibistockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02291F2E2B86175900D3C58B /* Debug */,
+				02291F2F2B86175900D3C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02291EF52B86175700D3C58B /* Project object */;
+}
